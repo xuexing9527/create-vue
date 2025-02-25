@@ -1,5 +1,14 @@
 import * as fs from 'node:fs'
 import * as path from 'node:path'
+import { fileURLToPath } from 'url'
+
+import { createRequire } from 'module'
+import { dirname } from 'path'
+
+const require = createRequire(import.meta.url)
+// 获取当前目录
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = dirname('./../')
 
 interface LanguageItem {
   hint?: string

@@ -1,6 +1,6 @@
 {
-  "name": "create-vue",
-  "version": "3.14.2",
+  "name": "x-create",
+  "version": "1.0.0",
   "description": "🛠️ The recommended way to start a Vite-powered Vue project",
   "type": "module",
   "packageManager": "pnpm@10.4.1",
